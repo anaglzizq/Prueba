@@ -7,7 +7,7 @@ import express from 'express';
 
 const app = express();
 
-const { PORT, A, B, CC } = process.env;
+const { PORT, B, C } = process.env;
 
 // login
 app.get('/login', function (req, res) {
